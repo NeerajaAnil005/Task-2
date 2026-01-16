@@ -1,0 +1,63 @@
+/*Global styles applied to entire page */
+body {
+    font-family: Arial,sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.content-section {
+    margin: 20px;
+    padding: 20px;
+}
+
+img {
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+section, header, footer {
+    border-radius: 5px;
+}
